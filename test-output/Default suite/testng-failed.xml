@@ -5,8 +5,8 @@
     <classes>
       <class name="Assignment.QAAssignment.QAAssignment">
         <methods>
+          <include name="verifySearchByKeyword"/>
           <include name="tearDown"/>
-          <include name="verifySearchByBrandAndModelTest"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- Assignment.QAAssignment.QAAssignment -->

@@ -20,12 +20,11 @@ import io.restassured.RestAssured;
 import io.restassured.response.Response;
 
 public class QAAssignment {
+	
 	WebDriver driver;
 	Car car = new Car();
 	List<String> brandInputList = new ArrayList<String>(Arrays.asList("Seat","Renault","Peugeot","Dacia","Citroën","Škoda"));
 	List<String> modelInputList = new ArrayList<String>(Arrays.asList("Toledo","Laguna Grandtour","308 SW","Solenza","C4 Coupé","Favorit"));
-
-	
 	
 	@BeforeMethod
 	public void setUp() {
@@ -33,14 +32,22 @@ public class QAAssignment {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("http://localhost:3000");
+		
+	}
+	
+	@Test
+	public void verifyPageLayout() {
+		String title = driver.getTitle();
+		assertEquals(title, "React App");
+		Select brand = new Select(driver.findElement(By.id("S1")));
+		Assert.assertEquals("- Select Option -", brand.getFirstSelectedOption().getText());
+		Assert.assertEquals(driver.findElement(By.id("S2")).getAttribute("disabled"),"true");		
+		Assert.assertEquals(driver.findElement(By.id("B")).getAttribute("disabled"),"true");
 	}
 	
 	@Test
 	public void verifySearchByBrandAndModelTest() throws InterruptedException {
 		
-		String title = driver.getTitle();
-		assertEquals(title, "React App");
-
 		for (int i=0;i<brandInputList.size();i++) {
 			Select brand = new Select(driver.findElement(By.id("S1")));
 			brand.selectByVisibleText(brandInputList.get(i));
@@ -86,14 +93,29 @@ public class QAAssignment {
 		}
 	}
 	
+	@Test void verifySearchByKeyword () {
+		List<String> keywordInput = new ArrayList<String>(Arrays.asList("campo","fast car","Racing","fastest","fast car","fast car"));					
+		WebElement keyword = driver.findElement(By.id("T"));
+		
+		for(int i=0;i<keywordInput.size();i++) {
+			keyword.clear();
+			keyword.sendKeys(keywordInput.get(i));
+			driver.findElement(By.id("B")).click();
+			Alert alert = driver.switchTo().alert();
+			String alertMessage = alert.getText();
+			String expectedMessage = "{\"model\":\"\",\"brand\":\"\",\"keyword\":\""+keywordInput.get(i)+"\"}";
+			assertEquals(alertMessage, expectedMessage);
+			alert.accept();
+		}
+	}
+	
 	@Test
 	public void verifyModelOptionsListTest() {
 		
 		Response response = RestAssured.get("http://localhost:3000/cars");
 		List<String> brandList = response.jsonPath().getList("brand");
 		List<Object> models = response.jsonPath().getList("models");
-	
-		System.out.println("models"+models);
+
 		brandList.add("- Select Option -");
 		
 		Select brand = new Select(driver.findElement(By.id("S1")));

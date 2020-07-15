@@ -1,62 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="3" total="4" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8137" started-at="2020-07-15T09:46:21Z" finished-at="2020-07-15T09:46:30Z">
+  <suite name="Default suite" duration-ms="109603" started-at="2020-07-15T12:32:14Z" finished-at="2020-07-15T12:34:03Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8137" started-at="2020-07-15T09:46:21Z" finished-at="2020-07-15T09:46:30Z">
+    <test name="Default test" duration-ms="109603" started-at="2020-07-15T12:32:14Z" finished-at="2020-07-15T12:34:03Z">
       <class name="Assignment.QAAssignment.QAAssignment">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:Assignment.QAAssignment.QAAssignment@7e0b0338]" name="setUp" is-config="true" duration-ms="5647" started-at="2020-07-15T09:46:21Z" finished-at="2020-07-15T09:46:27Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Assignment.QAAssignment.QAAssignment@dc24521]" name="setUp" is-config="true" duration-ms="5688" started-at="2020-07-15T12:32:14Z" finished-at="2020-07-15T12:32:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="verifySearchByBrandAndModelTest()[pri:0, instance:Assignment.QAAssignment.QAAssignment@7e0b0338]" name="verifySearchByBrandAndModelTest" duration-ms="1636" started-at="2020-07-15T09:46:27Z" finished-at="2020-07-15T09:46:29Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [{"model":"Toledo","brand":"Seat","keyword":"campo"}] but found [{"model":"Toledo","brand":"Seat","keyword":""}]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [{"model":"Toledo","brand":"Seat","keyword":"campo"}] but found [{"model":"Toledo","brand":"Seat","keyword":""}]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:453)
-at org.testng.Assert.assertEquals(Assert.java:463)
-at Assignment.QAAssignment.QAAssignment.verifySearchByBrandAndModelTest(QAAssignment.java:59)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method status="PASS" signature="verifyBrandModelOptionsListTest()[pri:0, instance:Assignment.QAAssignment.QAAssignment@dc24521]" name="verifyBrandModelOptionsListTest" duration-ms="53068" started-at="2020-07-15T12:32:19Z" finished-at="2020-07-15T12:33:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBrandModelOptionsListTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Assignment.QAAssignment.QAAssignment@dc24521]" name="tearDown" is-config="true" duration-ms="12219" started-at="2020-07-15T12:33:12Z" finished-at="2020-07-15T12:33:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Assignment.QAAssignment.QAAssignment@dc24521]" name="setUp" is-config="true" duration-ms="3629" started-at="2020-07-15T12:33:25Z" finished-at="2020-07-15T12:33:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyModelOptionsListTest()[pri:0, instance:Assignment.QAAssignment.QAAssignment@dc24521]" name="verifyModelOptionsListTest" duration-ms="3034" started-at="2020-07-15T12:33:28Z" finished-at="2020-07-15T12:33:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyModelOptionsListTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Assignment.QAAssignment.QAAssignment@dc24521]" name="tearDown" is-config="true" duration-ms="923" started-at="2020-07-15T12:33:31Z" finished-at="2020-07-15T12:33:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Assignment.QAAssignment.QAAssignment@dc24521]" name="setUp" is-config="true" duration-ms="3619" started-at="2020-07-15T12:33:32Z" finished-at="2020-07-15T12:33:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyPageLayout()[pri:0, instance:Assignment.QAAssignment.QAAssignment@dc24521]" name="verifyPageLayout" duration-ms="474" started-at="2020-07-15T12:33:36Z" finished-at="2020-07-15T12:33:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageLayout -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Assignment.QAAssignment.QAAssignment@dc24521]" name="tearDown" is-config="true" duration-ms="765" started-at="2020-07-15T12:33:36Z" finished-at="2020-07-15T12:33:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Assignment.QAAssignment.QAAssignment@dc24521]" name="setUp" is-config="true" duration-ms="3609" started-at="2020-07-15T12:33:37Z" finished-at="2020-07-15T12:33:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifySearchByBrandAndModelTest()[pri:0, instance:Assignment.QAAssignment.QAAssignment@dc24521]" name="verifySearchByBrandAndModelTest" duration-ms="5430" started-at="2020-07-15T12:33:41Z" finished-at="2020-07-15T12:33:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySearchByBrandAndModelTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Assignment.QAAssignment.QAAssignment@7e0b0338]" name="tearDown" is-config="true" duration-ms="809" started-at="2020-07-15T09:46:29Z" finished-at="2020-07-15T09:46:30Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Assignment.QAAssignment.QAAssignment@dc24521]" name="tearDown" is-config="true" duration-ms="839" started-at="2020-07-15T12:33:46Z" finished-at="2020-07-15T12:33:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Assignment.QAAssignment.QAAssignment@dc24521]" name="setUp" is-config="true" duration-ms="3627" started-at="2020-07-15T12:33:47Z" finished-at="2020-07-15T12:33:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifySearchByBrandModelKeywordTest()[pri:0, instance:Assignment.QAAssignment.QAAssignment@dc24521]" name="verifySearchByBrandModelKeywordTest" duration-ms="5553" started-at="2020-07-15T12:33:50Z" finished-at="2020-07-15T12:33:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchByBrandModelKeywordTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Assignment.QAAssignment.QAAssignment@dc24521]" name="tearDown" is-config="true" duration-ms="843" started-at="2020-07-15T12:33:56Z" finished-at="2020-07-15T12:33:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Assignment.QAAssignment.QAAssignment@dc24521]" name="setUp" is-config="true" duration-ms="3632" started-at="2020-07-15T12:33:57Z" finished-at="2020-07-15T12:34:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifySearchByKeyword()[pri:0, instance:Assignment.QAAssignment.QAAssignment@dc24521]" name="verifySearchByKeyword" duration-ms="1718" started-at="2020-07-15T12:34:01Z" finished-at="2020-07-15T12:34:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchByKeyword -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Assignment.QAAssignment.QAAssignment@dc24521]" name="tearDown" is-config="true" duration-ms="866" started-at="2020-07-15T12:34:02Z" finished-at="2020-07-15T12:34:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
