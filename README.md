@@ -12,8 +12,8 @@ This test automation suite runs all the possible E2E test cases for the applicat
 Please download the test suite to your computer, go to the QAAssignment and run following commands
 	
 * checkout: `git clone https://github.com/snehanemade/QAAssignment.git`
+* Update driverPath in AppTest.java file
 * goto dir: `cd QAAssignment`
-* install dependencies: `mvn clean install`
 * start test: `mvn clean test`
 
 #### Prerequisite to run this test suite

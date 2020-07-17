@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: assignment.qa.AppTest
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 101.388 sec
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 97.108 sec

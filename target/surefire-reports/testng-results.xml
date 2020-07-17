@@ -2,80 +2,80 @@
 <testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="assignment.qa.AppTest" duration-ms="100415" started-at="2020-07-16T20:39:24Z" finished-at="2020-07-16T20:41:05Z">
+  <suite name="assignment.qa.AppTest" duration-ms="95711" started-at="2020-07-17T19:06:59Z" finished-at="2020-07-17T19:08:34Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="100415" started-at="2020-07-16T20:39:24Z" finished-at="2020-07-16T20:41:05Z">
+    <test name="Command line test" duration-ms="95711" started-at="2020-07-17T19:06:59Z" finished-at="2020-07-17T19:08:34Z">
       <class name="assignment.qa.AppTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:assignment.qa.AppTest@402f32ff]" name="setUp" is-config="true" duration-ms="6368" started-at="2020-07-16T20:39:24Z" finished-at="2020-07-16T20:39:31Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:assignment.qa.AppTest@402f32ff]" name="setUp" is-config="true" duration-ms="5913" started-at="2020-07-17T19:06:59Z" finished-at="2020-07-17T19:07:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyBrandModelOptionsListTest()[pri:0, instance:assignment.qa.AppTest@402f32ff]" name="verifyBrandModelOptionsListTest" duration-ms="48286" started-at="2020-07-16T20:39:31Z" finished-at="2020-07-16T20:40:19Z">
+        <test-method status="PASS" signature="verifyBrandModelOptionsListTest()[pri:0, instance:assignment.qa.AppTest@402f32ff]" name="verifyBrandModelOptionsListTest" duration-ms="50636" started-at="2020-07-17T19:07:05Z" finished-at="2020-07-17T19:07:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyBrandModelOptionsListTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:assignment.qa.AppTest@402f32ff]" name="tearDown" is-config="true" duration-ms="1221" started-at="2020-07-16T20:40:19Z" finished-at="2020-07-16T20:40:20Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:assignment.qa.AppTest@402f32ff]" name="tearDown" is-config="true" duration-ms="902" started-at="2020-07-17T19:07:55Z" finished-at="2020-07-17T19:07:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:assignment.qa.AppTest@402f32ff]" name="setUp" is-config="true" duration-ms="3675" started-at="2020-07-16T20:40:20Z" finished-at="2020-07-16T20:40:24Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:assignment.qa.AppTest@402f32ff]" name="setUp" is-config="true" duration-ms="3762" started-at="2020-07-17T19:07:56Z" finished-at="2020-07-17T19:08:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyModelOptionsListTest()[pri:0, instance:assignment.qa.AppTest@402f32ff]" name="verifyModelOptionsListTest" duration-ms="3229" started-at="2020-07-16T20:40:24Z" finished-at="2020-07-16T20:40:27Z">
+        <test-method status="PASS" signature="verifyModelOptionsListTest()[pri:0, instance:assignment.qa.AppTest@402f32ff]" name="verifyModelOptionsListTest" duration-ms="2855" started-at="2020-07-17T19:08:00Z" finished-at="2020-07-17T19:08:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyModelOptionsListTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:assignment.qa.AppTest@402f32ff]" name="tearDown" is-config="true" duration-ms="762" started-at="2020-07-16T20:40:27Z" finished-at="2020-07-16T20:40:28Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:assignment.qa.AppTest@402f32ff]" name="tearDown" is-config="true" duration-ms="783" started-at="2020-07-17T19:08:03Z" finished-at="2020-07-17T19:08:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:assignment.qa.AppTest@402f32ff]" name="setUp" is-config="true" duration-ms="3709" started-at="2020-07-16T20:40:28Z" finished-at="2020-07-16T20:40:31Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:assignment.qa.AppTest@402f32ff]" name="setUp" is-config="true" duration-ms="3685" started-at="2020-07-17T19:08:03Z" finished-at="2020-07-17T19:08:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyPageLayout()[pri:0, instance:assignment.qa.AppTest@402f32ff]" name="verifyPageLayout" duration-ms="619" started-at="2020-07-16T20:40:31Z" finished-at="2020-07-16T20:40:32Z">
+        <test-method status="PASS" signature="verifyPageLayout()[pri:0, instance:assignment.qa.AppTest@402f32ff]" name="verifyPageLayout" duration-ms="488" started-at="2020-07-17T19:08:07Z" finished-at="2020-07-17T19:08:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageLayout -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:assignment.qa.AppTest@402f32ff]" name="tearDown" is-config="true" duration-ms="884" started-at="2020-07-16T20:40:32Z" finished-at="2020-07-16T20:40:33Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:assignment.qa.AppTest@402f32ff]" name="tearDown" is-config="true" duration-ms="866" started-at="2020-07-17T19:08:08Z" finished-at="2020-07-17T19:08:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:assignment.qa.AppTest@402f32ff]" name="setUp" is-config="true" duration-ms="3658" started-at="2020-07-16T20:40:33Z" finished-at="2020-07-16T20:40:37Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:assignment.qa.AppTest@402f32ff]" name="setUp" is-config="true" duration-ms="3511" started-at="2020-07-17T19:08:09Z" finished-at="2020-07-17T19:08:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifySearchByBrandAndModelTest()[pri:0, instance:assignment.qa.AppTest@402f32ff]" name="verifySearchByBrandAndModelTest" duration-ms="5069" started-at="2020-07-16T20:40:37Z" finished-at="2020-07-16T20:40:42Z">
+        <test-method status="PASS" signature="verifySearchByBrandAndModelTest()[pri:0, instance:assignment.qa.AppTest@402f32ff]" name="verifySearchByBrandAndModelTest" duration-ms="5191" started-at="2020-07-17T19:08:12Z" finished-at="2020-07-17T19:08:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySearchByBrandAndModelTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:assignment.qa.AppTest@402f32ff]" name="tearDown" is-config="true" duration-ms="5714" started-at="2020-07-16T20:40:42Z" finished-at="2020-07-16T20:40:47Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:assignment.qa.AppTest@402f32ff]" name="tearDown" is-config="true" duration-ms="1051" started-at="2020-07-17T19:08:17Z" finished-at="2020-07-17T19:08:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:assignment.qa.AppTest@402f32ff]" name="setUp" is-config="true" duration-ms="3641" started-at="2020-07-16T20:40:47Z" finished-at="2020-07-16T20:40:51Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:assignment.qa.AppTest@402f32ff]" name="setUp" is-config="true" duration-ms="3637" started-at="2020-07-17T19:08:18Z" finished-at="2020-07-17T19:08:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifySearchByBrandModelKeywordTest()[pri:0, instance:assignment.qa.AppTest@402f32ff]" name="verifySearchByBrandModelKeywordTest" duration-ms="6310" started-at="2020-07-16T20:40:51Z" finished-at="2020-07-16T20:40:57Z">
+        <test-method status="PASS" signature="verifySearchByBrandModelKeywordTest()[pri:0, instance:assignment.qa.AppTest@402f32ff]" name="verifySearchByBrandModelKeywordTest" duration-ms="5717" started-at="2020-07-17T19:08:22Z" finished-at="2020-07-17T19:08:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySearchByBrandModelKeywordTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:assignment.qa.AppTest@402f32ff]" name="tearDown" is-config="true" duration-ms="775" started-at="2020-07-16T20:40:57Z" finished-at="2020-07-16T20:40:58Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:assignment.qa.AppTest@402f32ff]" name="tearDown" is-config="true" duration-ms="746" started-at="2020-07-17T19:08:28Z" finished-at="2020-07-17T19:08:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:assignment.qa.AppTest@402f32ff]" name="setUp" is-config="true" duration-ms="4092" started-at="2020-07-16T20:40:58Z" finished-at="2020-07-16T20:41:02Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:assignment.qa.AppTest@402f32ff]" name="setUp" is-config="true" duration-ms="3566" started-at="2020-07-17T19:08:28Z" finished-at="2020-07-17T19:08:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifySearchByKeyword()[pri:0, instance:assignment.qa.AppTest@402f32ff]" name="verifySearchByKeyword" duration-ms="1616" started-at="2020-07-16T20:41:02Z" finished-at="2020-07-16T20:41:04Z">
+        <test-method status="PASS" signature="verifySearchByKeyword()[pri:0, instance:assignment.qa.AppTest@402f32ff]" name="verifySearchByKeyword" duration-ms="1621" started-at="2020-07-17T19:08:32Z" finished-at="2020-07-17T19:08:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySearchByKeyword -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:assignment.qa.AppTest@402f32ff]" name="tearDown" is-config="true" duration-ms="754" started-at="2020-07-16T20:41:04Z" finished-at="2020-07-16T20:41:05Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:assignment.qa.AppTest@402f32ff]" name="tearDown" is-config="true" duration-ms="734" started-at="2020-07-17T19:08:34Z" finished-at="2020-07-17T19:08:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
